@@ -1,0 +1,25 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  test:
+    type: page
+    label: Test
+    folder: test
+    match: '*'
+    fields:
+      - type: number
+        name: sort
+        label: Sort
+        subtype: int
+      - type: text
+        name: text
+        label: Text
+  test_long:
+    type: page
+    label: Test Long
+    folder: test_long
+    match: '**/*'
+    fields: []
